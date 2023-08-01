@@ -2,7 +2,27 @@
 # FlowDollar
 
 **Concept:**
+
 FlowDollar is a mobile decentralized application (dApp) that leverages Superfluid and GoodDollar to provide a universal basic income (UBI) system for users globally. The dApp aims to enable individuals, especially those in underserved communities, to access a steady income stream and participate in a more inclusive financial ecosystem.
+
+# Tools Used
+- Celo composer
+- React Native web3Modal
+- Superfluid SDK
+- Good Dollar SDK
+
+# Setup Guide
+- fork/clone the repo
+- Navigate to the react-native-app Run `npm install` or `yarn install` to install all required dependencies
+- Do `npm start` to start the local server. 
+- If testing the app on a real device Scan the qrcode with your expo app on your phone to view the application
+- If testing with an emulator from your terminal type `a` to open on android and `i` to open on ios simulator. NOTE before you can test on emulator/simulator you need to have them installed on your laptop.
+
+# Wallet Installation
+- Ensure you install alfajores android/ios app for testing purpose
+
+# Dapp UI
+<img width="1505" alt="Screenshot 2023-08-01 at 6 01 24 AM" src="https://github.com/gconnect/flowdollar-mobile/assets/23031920/7e0a52d9-b1b3-4f41-815d-826cd9c127b7">
 
 **Key Features:**
 
@@ -41,3 +61,6 @@ FlowDollar is a mobile decentralized application (dApp) that leverages Superflui
 - **Global Reach:** The mobile app allows anyone with a smartphone and internet access to participate, promoting global financial inclusion.
 - **Transparent and Trustless:** Utilizing blockchain technology ensures transparency, accountability, and immutability in the distribution of GoodDollars.
 - **Social Impact:** By providing a basic income and financial literacy, FlowDollar positively impacts communities worldwide.
+
+# Warning
+This code is not production ready it's still work in progress
