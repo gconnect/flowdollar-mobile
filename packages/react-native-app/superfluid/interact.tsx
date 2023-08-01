@@ -16,9 +16,9 @@ export const createNewFlow = async (recipient, amount) => {
   })
 
   
-const maticx = await sf.loadSuperToken("CELOx")
+const celox = await sf.loadSuperToken("CELOx")
 
-  const approveOperation = maticx.approve({ receiver: recipient, amount: ethers.utils.parseUnits(amount).toString() });
+  const approveOperation = celox.approve({ receiver: recipient, amount: ethers.utils.parseUnits(amount).toString() });
 
   return await approveOperation.exec(superSigner)
  
