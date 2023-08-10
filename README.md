@@ -19,7 +19,7 @@ FlowDollar is a mobile decentralized application (dApp) that leverages Superflui
 - If testing with an emulator from your terminal type `a` to open on android and `i` to open on ios simulator. NOTE before you can test on emulator/simulator you need to have them installed on your laptop.
 
 # Wallet Installation
-- Ensure you install alfajores android/ios app for testing purpose
+- Ensure you install alfajores android/ios app for testing purpose.
 
 # Dapp UI
 <img width="1505" alt="Screenshot 2023-08-01 at 6 01 24 AM" src="https://github.com/gconnect/flowdollar-mobile/assets/23031920/7e0a52d9-b1b3-4f41-815d-826cd9c127b7">
